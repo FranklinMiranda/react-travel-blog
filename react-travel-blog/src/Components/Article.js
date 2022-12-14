@@ -13,7 +13,7 @@ class Article extends React.Component {
           </div>
           <div className="Article-SubTitle">
             <h3>{this.props.date}</h3>
-            <h3>{this.props.location}</h3>
+            <h3><a href={this.props.hyperlink} target='_blank'>{this.props.location}</a></h3>
           </div>
           <div className="Article-Description">
             <p>{this.props.description}</p>
