@@ -1,13 +1,18 @@
 import React from 'react';
 import Nav from './Nav';
-import Article from './Article'
+import Article from './Article';
+import ArticleData from '../Data/ArticleData';
+
+const ArticleEl = ArticleData.map((el) => {
+  return <Article img={el.img} title={el.title} date={el.date} location={el.location} description={el.description} />;
+});
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
         <Nav />
-        <Article />
+        <div>{ArticleEl}</div>
       </div>
     );
   }

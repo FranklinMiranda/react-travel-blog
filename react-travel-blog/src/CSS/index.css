@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   background-color: antiquewhite;
 }
 
@@ -8,8 +7,8 @@ code {
 }
 
 .App {
-  margin: 10px 10px 10px;
-  padding: 10px 50px 10px;
+  margin: 10px;
+  padding: 50px;
   background-color: #333;
 }
 
@@ -19,21 +18,18 @@ code {
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
-
-.Nav img {
-  width: 5%;
+  color: white;
 }
 
 .Article {
   background-color: white;
   display: flex;
   flex-direction: row;
-  padding: 25px 50px;
+  padding: 50px;
 }
 
 .Article-Image {
-  margin: 10px 10px;
+  padding: 25px;
   background-color: black;
 }
 
@@ -41,4 +37,25 @@ code {
   display: flex;
   flex-direction: column;
   background-color: antiquewhite;
+  padding: 20px;
+}
+
+.Article-Title {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+}
+
+.Article-SubTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: white;
+}
+
+.Article-Description {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  background-color: red;
 }
