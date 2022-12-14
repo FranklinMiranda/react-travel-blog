@@ -1,10 +1,10 @@
 // This file contains all the data that will populate the Article Components props parameter
-import Img from '../Images/logo192.png';
+import Img1 from '../Images/logo192.png';
 
 const ArticleData = [
   {
     title: 'Rehoboth Beach',
-    img: Img,
+    img: Img1,
     date: 'May, 2022',
     location: 'Rehoboth Beach, Delaware',
     description:

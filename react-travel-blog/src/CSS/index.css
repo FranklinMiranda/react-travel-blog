@@ -31,6 +31,9 @@ code {
 .Article-Image {
   padding: 25px;
   background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Article-Body {
@@ -58,4 +61,5 @@ code {
   justify-content: flex-start;
   flex-wrap: wrap;
   background-color: red;
+  padding: 25px 100px;
 }
