@@ -25,15 +25,20 @@ code {
   background-color: white;
   display: flex;
   flex-direction: row;
-  padding: 50px;
+  padding: 15px;
 }
 
 .Article-Image {
-  padding: 25px;
   background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 40%;
+}
+
+.Article-Image img {
+  width: 95%;
+  height: 95%;
 }
 
 .Article-Body {

@@ -1,5 +1,5 @@
 // This file contains all the data that will populate the Article Components props parameter
-import Img1 from '../Images/logo192.png';
+import Img1 from '../Images/RehobothBeach.jpg';
 
 const ArticleData = [
   {
