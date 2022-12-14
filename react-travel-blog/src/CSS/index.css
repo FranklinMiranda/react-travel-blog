@@ -15,7 +15,6 @@ code {
 
 .Nav {
   background-color: red;
-  margin: 10px 50px 10px;
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -27,7 +26,19 @@ code {
 }
 
 .Article {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 25px 50px;
+}
+
+.Article-Image {
+  margin: 10px 10px;
+  background-color: black;
+}
+
+.Article-Body {
+  display: flex;
+  flex-direction: column;
   background-color: antiquewhite;
-  margin: 10px 50px 10px;
-  height: 100px;
 }
