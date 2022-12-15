@@ -30,7 +30,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 35%;
+  width: 20%;
 }
 
 .Article-Image img {
@@ -42,6 +42,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: antiquewhite;
+  width: 80%;
   padding: 20px;
 }
 
